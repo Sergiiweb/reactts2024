@@ -68,7 +68,7 @@ const userSlice = createSlice({
             //.....
         })
         .addMatcher(isFulfilled(), (state, action) => {
-            state.isLoaded = true;
+            // state.isLoaded = true;
         })
         .addMatcher(isRejected(), (state, action) => {
             //...
